@@ -1,25 +1,25 @@
 encoding  utf-8
 
 
-survey WhiteLightning
+survey white_lightning -title "White Lightning"
 input wl.th2
 
-map wx
+map wl-main
     wlSP1
     wlSP2
     wlSP3
 endmap
 
-map wy
+map wl-offset
     wlSP4
 endmap
 
-map wlMP
-    wx
+map map
+    wl-main
     break
-    wy [50 100 m] below 
-    preview below wx
-  endmap
+    wl-offset [-7 12 m] below 
+    preview below wl-main
+ endmap
 
   
 centreline

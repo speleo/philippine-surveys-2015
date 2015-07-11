@@ -11,6 +11,10 @@ scrap wlSP4 -scale [-128.0 -128.0 2765.795275590551 -128.0 0.0 0.0 73.5023999999
 line wall
 endline
 
+point 1573.0 2217.0 map-connection
+
+point 1353.0 1625.5 map-connection
+
 line wall
   1544.0 2203.0
   1521.0 2134.0 1545.0 2085.0 1542.0 2027.0
@@ -22,13 +26,15 @@ endline
 
 point 1714.0 1764.0 low-end
 
-point 1598.0 1758.5 stalagmites
+point 1470.5 1601.5 label -text p9
+
+point 1590.0 1761.5 stalagmites
 
 point 1667.0 1771.0 stalactites
 
 point 1631.5 1774.5 stalactites
 
-point 1496.0 1815.0 stalactites
+point 1500.0 1814.0 stalactites
 
 line wall
   1711.0 1779.0
@@ -144,7 +150,7 @@ area sand
   l93-2563-2273
 endarea
 
-line pit -id l53-1412-1597 -reverse on
+line pit -id l53-1412-1597
   1353.0 1625.5
   1377.0 1618.0 1373.91 1616.15 1410.5 1607.5
   1438.0 1601.0 1443.0 1600.0 1443.0 1600.0
@@ -185,6 +191,7 @@ line wall
   1619.0 1715.0
   1619.0 1715.0 1698.0 1769.0 1698.0 1776.0
   1698.0 1783.0 1735.0 1793.0 1710.0 1839.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -193,6 +200,7 @@ line wall -reverse on
   1685.0 1885.0 1688.0 1925.0 1725.0 1937.0
   subtype flowstone
   1781.6 1955.36 1765.04 1924.82 1774.0 1882.0
+  smooth off
   subtype flowstone
 endline
 
@@ -383,7 +391,7 @@ point 936.0 1734.5 gradient -orientation 18.1
 
 point 828.0 1441.0 label -text "flood debris"
 
-point 1110.0 1959.0 label -text p10?
+point 967.0 2016.5 label -text p10?
 
 point 1027.0 1963.0 entrance -orientation 210.2
 
@@ -401,12 +409,14 @@ line wall
   1025.5 1781.5 993.0 1715.0 982.5 1694.0
   972.0 1673.0 899.0 1651.0 946.0 1602.5
   993.0 1554.0 982.72 1545.51 1051.0 1538.0
+  smooth off
 endline
 
 line wall
   1051.0 1538.0
   subtype flowstone
   1151.0 1527.0 1147.0 1591.0 1237.0 1568.0
+  smooth off
 endline
 
 line wall
@@ -424,6 +434,7 @@ line wall -reverse on
   subtype flowstone
   1084.0 1282.5 1137.0 1292.0 1207.5 1356.5
   1278.0 1421.0 1294.0 1434.5 1308.0 1450.0
+  smooth off
   subtype flowstone
 endline
 
@@ -553,6 +564,8 @@ point 20.0 1984.5 label -text "presumed sump"
 
 point 372.0 2066.0 label -text "flood debris"
 
+point 713.0 1622.5 label -text p5
+
 line wall
   299.0 2033.5
   296.0 1925.5 271.0 1910.0 289.5 1877.0
@@ -570,6 +583,7 @@ line wall
   187.0 2052.5 199.0 2057.5 185.5 2019.0
   172.0 1980.5 187.0 1986.5 140.0 1973.5
   93.0 1960.5 7.26 1927.35 48.5 1880.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -577,6 +591,7 @@ line wall -reverse on
   subtype flowstone
   75.5 1849.0 119.0 1852.0 152.0 1834.5
   185.0 1817.0 231.0 1820.0 262.40220472440933 1800.475984251968
+  smooth off
 endline
 
 line wall -reverse on
