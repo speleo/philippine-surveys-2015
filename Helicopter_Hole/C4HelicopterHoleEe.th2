@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -43507.57 -3273.35 261045.41 19640.09
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {27191.2018372 1 1.0} {5078.22023728 1.0} PocketTopo/C4HelicopterHole_e.xvi 0 {}
+
+
+scrap C4HelicopterHoleSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
