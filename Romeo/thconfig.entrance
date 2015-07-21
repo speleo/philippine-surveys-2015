@@ -1,19 +1,19 @@
 encoding  utf-8
-source romeo.th
+source romeo_entrance.th
 # Change name to the main therion file
 
 
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ./output/Romeo.pdf
+export map -proj plan -layout local -o ./output/romeo_entrance.pdf
 #Produces plan of cave, on a single sheet
 
-export map -fmt kml -proj plan -layout local -o .\output\romeo_cave.kml
+#export map -fmt kml -proj plan -layout local -o .\output\romeo_cave.kml
 
 #export map -proj extended -layout local -o romeo_caveEe.pdf
 
-#export model -fmt survex -o romeo caveth.3d
+export model -fmt survex -o ./output/romeo_entrance.3d
 #Survex file showing centre line only
 
 #export model -o romeo cave.lox

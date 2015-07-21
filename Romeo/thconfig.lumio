@@ -1,26 +1,17 @@
 encoding  utf-8
-source romeo.th
+source lumio.th
 # Change name to the main therion file
 
 
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ./output/Romeo.pdf
+export map -proj plan -layout local -o ./output/lumio.pdf
 #Produces plan of cave, on a single sheet
 
-export map -fmt kml -proj plan -layout local -o .\output\romeo_cave.kml
-
-#export map -proj extended -layout local -o romeo_caveEe.pdf
-
-#export model -fmt survex -o romeo caveth.3d
+export model -fmt survex -o ./output/lumio.3d
 #Survex file showing centre line only
 
-#export model -o romeo cave.lox
-#3d therion model to be viewed in the therion viewer
-
-#export map -proj plan -o romeo cave_Walls.3d
-#Survex file showing walls only
 
 layout local
   scale 1 150

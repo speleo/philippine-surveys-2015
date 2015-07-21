@@ -5,6 +5,7 @@ survey BlueWaterSystem
   input S1/S1.th
   input Romeo/romeo_cave.th
   input WhiteLightning/WhiteLightning.th
+  input Minichasma/Minichasma.th
 
 
   centreline
