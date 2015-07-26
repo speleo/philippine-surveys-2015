@@ -10,8 +10,9 @@ survey romeo
 
   centreline
     equate 1.12@Romeo_1_12   1.12@romeo_entrance
-    equate 1.17@lumio       lumio@romeo_entrance
-  endcentreline
+    #equate 2.1@lumio       lumio@romeo_entrance
+    equate 2.1@lumio       1.54@romeo_entrance
+    endcentreline
 
 endsurvey
 

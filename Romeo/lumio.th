@@ -173,7 +173,13 @@ data normal from to tape compass clino ignoreall
 1.17  -  1.425  14.04  -85.63  
 1.17  -  6.143  305.61  79.83  
 1.17  -  1.016  120.89  20.99  
-1.17  -  7.527  10.21  -63.67  
+1.17  2.1  7.527  10.21  -63.67  
+#
+#1.17  -  7.527  10.21  -63.67  
+#
+# station 2.1 was created from a splay after a conversation with
+# Hellie Adams (nee Brooke) who stated that a leg was shot down the 
+# pitch.  
 1.13  -  0.0  0.0  0.0  
 #1.13  1.18  4.544  154.05  -33.93  
 #1.13  1.18  4.551  154.25  -34.12  
