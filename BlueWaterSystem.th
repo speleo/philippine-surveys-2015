@@ -3,7 +3,7 @@ survey BlueWaterSystem
   input bluewater-v7/bluewater.th
   input Helicopter_Hole/C4HelicopterHole.th
   input S1/S1.th
-  input Romeo/romeo_cave.th
+  input Romeo/Romeo.th
   input WhiteLightning/WhiteLightning.th
   input Minichasma/Minichasma.th
 
