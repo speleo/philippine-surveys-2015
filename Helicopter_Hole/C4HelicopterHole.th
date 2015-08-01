@@ -37,7 +37,7 @@ copyright 2015 "GNU GPL"
   team "Henry Dawson" instruments
 
   instrument  instruments "UBSS DistoX1"
-  
+  #
   cs EPSG:32651
   # not sure which is the correct station to pin
   fix 6.2 395440.34 1992943.49 294
