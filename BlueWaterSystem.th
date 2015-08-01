@@ -6,6 +6,8 @@ survey BlueWaterSystem
   input Romeo/Romeo.th
   input WhiteLightning/WhiteLightning.th
   input Minichasma/Minichasma.th
+  input naganakan/naganakan.th
+  input ovimph/ovimph.th
 
 
   centreline

@@ -29,10 +29,15 @@ centreline
 
   cs EPSG:32651
   # not sure which is the correct station to pin
-  #fix 1.0 396963.20 1994433.28 623
-  fix 1.0 398238.00 1992041.00 457 
+  # I was just looking at Google Earth with Rufus and trying to 
+  # remember where the entrance to WL was. 
+  # Our best guess (and might be way out) is about
+  #
+  # 18° 1'35.63"N
+  # 122° 1'47.85"E
 
-
+  fix 1.0 397320.00 1993393.00 485
+  
   team "Ruth Allan" instruments
   team "Rich Smith" notes
   team "Paul Fairman" dog
