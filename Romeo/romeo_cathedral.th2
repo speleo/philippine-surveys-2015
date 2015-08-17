@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust 5.307086609999715 -136.582677166 2466.0314960583996 906.818897637
+##XTHERION## xth_me_area_adjust -132.0 -136.58267716600002 2466.0314960583996 906.818897637
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {219.52968504 1 1.0} {389.698740157 1.4} PocketTopo/romeo_cathedral_p.xvi 0 {}
 
@@ -44,6 +44,7 @@ line wall
   1518.0 143.0 1568.0 145.0 1582.0 145.0
   1596.0 145.0 1602.0 158.0 1603.0 133.0
   1604.0 108.0 1596.0 93.0 1596.0 79.0
+  smooth off
 endline
 
 point 219.52968504 389.698740157 station -name 1.4
@@ -56,7 +57,7 @@ point 1389.1196850399997 246.968740157 station -name 1.2
 
 point 1524.5596850399997 164.538740157 station -name 1.1
 
-point 2332.51968504 200.078740157 station -name 1.0
+point 2332.51968504 200.078740157 station -id cathedral_join -name 1.0
 
 endscrap
 
