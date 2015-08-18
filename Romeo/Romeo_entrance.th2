@@ -69,13 +69,23 @@ line wall -id l3-8944-24160
   smooth off
 endline
 
-line floor-step -id l271-11259-30039 -close on
+line floor-step -id l5-11066-29995
   11295.0 30043.0
-  11118.76 30029.64 11032.0 30000.0 11008.0 29944.0
-  10984.0 29888.0 10972.0 29832.0 11120.0 29684.0
+  11118.76 30029.64 11030.0 29995.0 11006.0 29939.0
+  smooth off
+endline
+
+line floor-step -id l6-10998-29848
+  11006.0 29939.0
+  10982.0 29883.0 10972.0 29832.0 11120.0 29684.0
   11260.66 29543.34 11341.0 29820.0 11341.0 29820.0
   smooth off
+endline
+
+line floor-step -id l7-11386-29954
+  11341.0 29820.0
   11341.0 29820.0 11471.5 30056.38 11295.0 30043.0
+  smooth off
 endline
 
 area water
@@ -85,6 +95,12 @@ line wall
 endline
 
 area water
+endarea
+
+area pebbles
+  l5-11066-29995
+  l6-10998-29848
+  l7-11386-29954
 endarea
 
 line wall -id l4-9300-25540
@@ -177,7 +193,6 @@ area clay
   l155-9676-25844
   l5-9716-25416
   l156-9216-24880
-  l4-9300-25540
 endarea
 
 area flowstone
@@ -207,20 +222,23 @@ area water
   l213-10786-29310
 endarea
 
+area sand
+  l6-10998-29848
+  l5-11066-29995
+  l7-11386-29954
+  l6-10998-29848
+  l289-10912-29738
+  l213-10786-29310
+  l290-11258-29489
+endarea
+
 line border -id l289-10912-29738
   10701.0 29256.0
   10712.0 29285.0 10816.0 29447.0 10844.0 29512.0
   10872.0 29577.0 10931.0 29818.0 10942.0 29849.0
-  10953.0 29880.0 10995.0 29905.0 10995.0 29905.0
+  10953.0 29880.0 10992.0 29896.0 10992.0 29896.0
   smooth off
 endline
-
-area sand
-  l290-11258-29489
-  l271-11259-30039
-  l289-10912-29738
-  l213-10786-29310
-endarea
 
 line border -id l290-11258-29489
   11005.0 29197.0
@@ -228,6 +246,7 @@ line border -id l290-11258-29489
   11148.0 29377.0 11236.0 29366.0 11256.0 29471.0
   11276.0 29576.0 11306.0 29691.0 11325.0 29706.0
   11344.0 29721.0 11330.0 29749.0 11341.0 29820.0
+  smooth off
 endline
 
 line border -id l213-10786-29310 -subtype invisible
@@ -399,10 +418,6 @@ endline
 
 line border
 endline
-
-area pebbles
-  l271-11259-30039
-endarea
 
 line wall -id l6-11026-27178 -reverse on
   11504.0 30166.0
@@ -1326,6 +1341,12 @@ endscrap
 
 
 
+scrap scrap299 -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
 scrap romeoSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall
@@ -1485,19 +1506,18 @@ endline
 line border
 endline
 
-area pebbles
-endarea
-
 line border -id l283-7142-40660
   7010.0 40684.0
   7092.0 40674.0 7101.62 40644.99 7188.0 40676.0
   7266.0 40704.0 7204.0 40842.0 7108.0 40776.0
   7086.57 40761.27 7055.0 40784.0 6991.0 40740.0
+  smooth off
 endline
 
 line border -id l281-7000-40698 -reverse on
   6952.0 40888.0
   6952.0 40820.0 7005.48 40709.76 7020.0 40650.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -1556,6 +1576,7 @@ endline
 line pit -reverse on
   13109.0 32343.0
   13107.0 32372.0 13107.0 32465.0 13101.0 32556.0
+  smooth off
 endline
 
 line pit
@@ -1930,6 +1951,7 @@ line floor-step -id l272-3132-38192
   2635.0 38326.0
   2708.0 38296.0 2756.0 38300.0 2904.0 38268.0
   3052.0 38236.0 3037.56 38271.64 3130.78 38195.82047244
+  smooth off
 endline
 
 line wall

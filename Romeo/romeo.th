@@ -3,6 +3,7 @@ survey romeo
 
   input Romeo_entrance.th
   input Romeo_1_12.th
+  input Romeo_21_1.th
   input romeo_cathedral.th
   input lumio.th
 
@@ -17,6 +18,7 @@ survey romeo
     #equate 2.1@lumio       1.54@romeo_entrance
     
     equate 1.0@romeo_cathedral       1.121@romeo_entrance
+    equate 1.0@Romeo_21_1 1.51@romeo_entrance
     
     endcentreline
 
