@@ -86,6 +86,8 @@ layout local
         thfill p withcolor (0.1, 0.2, 0.8);
     enddef;
     
+    
+    
     # change centre line to continuous
     def l_survey_cave (expr p) =
         draw p withpen PenD withcolor (0.6, 0.6, 0.6);
