@@ -1,5 +1,5 @@
 encoding  utf-8
-source romeo_1_12.th
+source Romeo_1_12.th
 # Change name to the main therion file
 
 
@@ -53,6 +53,7 @@ layout local
   symbol-set BCRA
   symbol-hide group cave-centreline
   symbol-assign line slope SKBB
+
   
   legend on
   legend-columns 1

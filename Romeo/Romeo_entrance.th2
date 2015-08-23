@@ -347,6 +347,7 @@ endarea
 line border -id l646-10658-28742 -subtype invisible
   10684.0 28700.0
   10684.0 28700.0 10480.0 28984.0 10701.0 29256.0
+  smooth off
 endline
 
 line border -id l213-10786-29310 -subtype invisible
@@ -395,6 +396,7 @@ endarea
 line border -id l650-11042-28484 -subtype invisible
   11089.0 28034.0
   11089.0 28034.0 11092.0 28362.0 11002.0 28599.0
+  smooth off
 endline
 
 line border -id l648-10804-28026 -subtype invisible
@@ -415,6 +417,7 @@ endline
 line border -id l643-11124-27794 -reverse on -subtype invisible
   11062.0 27816.0
   11062.0 27816.0 11101.58 27798.0 11142.0 27798.0
+  smooth off
 endline
 
 line border -id l209-10984-27732 -reverse on -subtype invisible
@@ -818,7 +821,7 @@ endline
 line border -id l611-4190-8982 -subtype invisible
   4416.0 8896.0
   4416.0 8896.0 4342.0 9038.0 4238.0 9012.0
-  4134.0 8986.0 4060.0 8704.0 4060.0 8704.0
+  4134.0 8986.0 3318.0 7998.0 3318.0 7998.0
   smooth off
 endline
 
@@ -833,21 +836,24 @@ endarea
 line rock-border
   4616.0 8696.0
   4616.0 8696.0 4604.0 8840.0 4506.0 8780.0
+  smooth off
 endline
 
 line border -id l609-4168-8172 -subtype invisible
-  4194.0 8328.0
+  3760.0 7942.0
   4108.0 7812.0
   4108.0 7812.0 4086.0 7526.0 4188.0 7442.0
   4290.0 7358.0 4856.0 8484.0 4856.0 8484.0
   smooth off
   4856.0 8484.0 4785.13 8534.61 4744.0 8658.0
   4728.0 8706.0 4646.0 8724.0 4616.0 8696.0
+  smooth off
 endline
 
 line rock-border -id l614-4454-8846
   4416.0 8896.0
   4416.0 8896.0 4411.39 8836.76 4492.0 8838.0
+  smooth off
 endline
 
 area water
@@ -863,6 +869,7 @@ line rock-border -id l620-4610-8624
   4506.0 8780.0
   4506.0 8780.0 4398.0 8624.0 4490.0 8540.0
   4582.0 8456.0 4632.0 8658.0 4616.0 8696.0
+  smooth off
 endline
 
 line flowstone
@@ -950,11 +957,23 @@ line wall -id l107-2658-7064 -reverse on
   smooth off
 endline
 
+area debris
+  l688-3876-8270
+endarea
+
+line border -id l688-3876-8270 -close on -subtype invisible
+  3500.0 8322.0
+  3662.0 8084.0
+  3882.0 8276.0
+  3672.0 8482.0
+  3500.0 8322.0
+endline
+
 line border -id l252-4140-8522 -subtype invisible
-  4060.0 8704.0
-  4060.0 8704.0 4120.0 8610.0 4124.0 8570.0
-  4128.0 8530.0 4160.0 8492.0 4168.0 8460.0
-  4176.0 8428.0 4194.0 8328.0 4194.0 8328.0
+  3318.0 7998.0
+  3318.0 7998.0 3306.0 7886.0 3496.0 7808.0
+  3533.16 7792.75 3583.0 7828.29 3612.0 7844.0
+  3708.0 7896.0 3760.0 7942.0 3760.0 7942.0
   smooth off
 endline
 
@@ -1271,6 +1290,9 @@ endline
 point 9976.0 19768.0 label -text "Conspiracy Duck"
 
 point 5126.0 9012.0 water-flow -orientation 50.5
+
+area debris
+endarea
 
 point 4886.0 8806.0 water-flow -orientation 50.5
 
@@ -3300,9 +3322,9 @@ line rock-border -close on
   5974.0 7712.0
 endline
 
-point 3000.0 4506.0 label -text "p8"
+point 3156.0 4532.0 label -text "p8<br>Juliet"
 
-point 6952.0 7970.0 label -text "Romeo Cave" -scale l
+point 7090.0 8002.0 label -text "Romeo Cave" -scale xl
 
 line wall -id l87-5698-7070 -reverse on
   6268.0 7568.0
@@ -3355,7 +3377,7 @@ line wall -id l87-5698-7070 -reverse on
   2276.0 4176.0 2249.0 4241.0 2204.0 4232.0
   2159.0 4223.0 2140.0 4212.0 2109.0 4223.0
   2078.0 4234.0 2062.0 4249.0 2012.0 4251.0
-  1962.0 4253.0 1941.0 4257.0 1936.0 4258.0
+  1962.0 4253.0 1915.0 4273.0 1910.0 4274.0
   smooth off
 endline
 
@@ -3538,7 +3560,31 @@ line flowstone
   smooth off
 endline
 
-line flowstone
+point 2968.0 4566.0 water-flow -orientation 149.1
+
+area debris
+  l676-3922-5910
+endarea
+
+line border -id l676-3922-5910 -close on -subtype invisible
+  3826.0 5868.0
+  4046.0 5506.0
+  4170.0 5636.0
+  3932.0 5910.0
+  3826.0 5868.0
+endline
+
+point 3898.0 5688.0 water-flow -orientation 239.5
+
+point 3214.0 4996.0 water-flow -orientation 247.4
+
+point 3026.0 4960.0 water-flow -orientation 247.4
+
+point 2618.0 5150.0 label -text "hl?"
+
+point 3702.0 5474.0 water-flow -orientation 239.5
+
+line flowstone -id l621-3504-5172
   3490.5 5260.0
   3490.5 5260.0 3482.5 5237.0 3484.0 5218.0
   3485.5 5199.0 3483.0 5179.5 3493.5 5170.0
@@ -3546,7 +3592,7 @@ line flowstone
   smooth off
 endline
 
-line flowstone
+line flowstone -id l622-3482-5272
   3437.5 5351.0
   3437.5 5351.0 3441.5 5307.0 3455.5 5289.0
   3469.5 5271.0 3499.5 5253.0 3514.0 5257.0
@@ -3554,7 +3600,7 @@ line flowstone
   smooth off
 endline
 
-line flowstone
+line flowstone -id l623-3834-5584
   3739.5 5760.5
   3739.5 5760.5 3724.0 5751.0 3719.5 5729.5
   3715.0 5708.0 3716.0 5688.0 3722.5 5682.5
@@ -3577,15 +3623,7 @@ line flowstone
   smooth off
 endline
 
-line flowstone
-  2419.0 4854.0
-  2419.0 4854.0 2414.0 4791.0 2400.0 4774.0
-  2386.0 4757.0 2379.0 4739.0 2358.0 4724.0
-  2337.0 4709.0 2332.0 4709.0 2308.0 4701.0
-  smooth off
-endline
-
-line pit -id l227-2946-4718
+line pit -id l227-2946-4718 -reverse on
   2967.0 5039.0
   2967.0 5039.0 2940.0 5033.5 2930.5 5031.5
   2921.0 5029.5 2899.5 5028.0 2889.0 5019.5
@@ -3658,24 +3696,46 @@ line flowstone
   smooth off
 endline
 
+line pit
+  2416.0 4838.0
+  2416.0 4838.0 2400.0 4746.0 2368.0 4734.0
+  2336.0 4722.0 2366.0 4646.0 2396.0 4628.0
+  2426.0 4610.0 2430.0 4414.0 2292.0 4410.0
+  smooth off
+endline
+
+point 1840.0 4342.0 label -text "hl?"
+
+point 2304.0 4690.0 stalagmite
+
+point 2328.0 4232.0 stalagmite
+
+point 2138.0 4314.0 stalagmite
+
+point 2114.0 4578.0 pillar
+
 line flowstone
-  2322.0 4363.0
-  2330.0 4359.0 2353.0 4360.0 2363.0 4339.0
-  2373.0 4318.0 2390.0 4315.0 2395.0 4292.0
-  2400.0 4269.0 2417.0 4253.0 2415.0 4244.0
-  2413.0 4235.0 2407.0 4198.0 2406.0 4184.0
-  2405.0 4170.0 2408.0 4154.0 2400.0 4134.0
-  2392.0 4114.0 2377.0 4086.0 2377.0 4086.0
+  2124.0 4432.0
+  2124.0 4432.0 2292.0 4426.0 2268.0 4624.0
+  smooth off
+endline
+
+line pit -reverse on
+  2404.0 4094.0
+  2404.0 4094.0 2460.0 4262.0 2380.0 4330.0
+  2300.0 4398.0 2398.0 4314.0 2292.0 4410.0
+  smooth off
+endline
+
+line floor-step
+  2697.0 4968.0
+  2697.0 4968.0 2806.0 4990.0 2830.0 5180.0
   smooth off
 endline
 
 line flowstone
-  2371.0 4734.0
-  2377.0 4715.0 2383.0 4710.0 2381.0 4684.0
-  2379.0 4658.0 2373.0 4658.0 2385.0 4639.0
-  2397.0 4620.0 2412.0 4592.0 2411.0 4570.0
-  2410.0 4548.0 2407.0 4514.0 2399.0 4490.0
-  2391.0 4466.0 2363.0 4453.0 2353.0 4448.0
+  2788.0 5164.0
+  2788.0 5164.0 2996.0 5202.0 2896.0 5526.0
   smooth off
 endline
 
@@ -3730,7 +3790,7 @@ line wall -id l261-3264-5728 -reverse on
   smooth off
 endline
 
-line pit -id l2-3472-6720 -close on
+line pit -id l2-3472-6720 -close on -reverse on
   3376.0 6817.0
   3387.0 6813.0 3462.0 6807.0 3470.0 6768.0
   3478.0 6729.0 3455.0 6709.0 3458.0 6649.0
@@ -3756,9 +3816,18 @@ line pit -id l2-3472-6720 -close on
   3356.0 6817.0 3365.0 6821.0 3376.0 6817.0
 endline
 
+point 2714.0 5056.0 gradient -orientation 299.4
+
+point 2060.0 4328.0 gradient -orientation 274.4 -scale l
+
+line wall
+  2705.0 5087.0
+  2676.0 5114.0
+endline
+
 line wall -reverse on
-  1908.0 4385.0
-  1928.0 4388.0 1973.0 4396.0 1975.0 4419.0
+  1920.0 4420.0
+  1940.0 4423.0 1973.0 4396.0 1975.0 4419.0
   1977.0 4442.0 1988.0 4517.0 1999.0 4551.0
   2010.0 4585.0 1999.0 4660.0 2088.0 4712.0
   2177.0 4764.0 2312.0 4816.0 2331.0 4823.0
@@ -3767,7 +3836,12 @@ line wall -reverse on
   2618.0 4868.0 2660.0 4882.0 2671.0 4903.0
   2682.0 4924.0 2697.0 4944.0 2697.0 4968.0
   2697.0 4992.0 2683.0 5036.0 2682.0 5046.0
-  2681.0 5056.0 2669.0 5099.0 2705.0 5087.0
+  2681.0 5056.0 2602.0 5076.0 2638.0 5064.0
+  smooth off
+endline
+
+line wall -reverse on
+  2705.0 5087.0
   2741.0 5075.0 2751.0 5078.0 2759.0 5094.0
   2767.0 5110.0 2800.0 5174.0 2808.0 5191.0
   2816.0 5208.0 2833.0 5279.0 2840.0 5297.0
@@ -3776,6 +3850,12 @@ line wall -reverse on
   2891.0 5721.0 2868.0 5889.0 2862.0 5914.0
   smooth off
 endline
+
+point 3804.0 6880.0 label -text "p5"
+
+point 3724.0 6178.0 label -text "traverse"
+
+point 3504.0 5988.0 label -text "p12"
 
 line wall -reverse on
   3694.25 6891.75
@@ -3837,7 +3917,7 @@ line wall -subtype invisible
   smooth off
 endline
 
-line pit -reverse on
+line pit
   3051.0 7315.0
   3051.0 7315.0 3041.0 7316.0 3068.0 7296.0
   3095.0 7276.0 3126.0 7202.0 3125.0 7145.0
