@@ -576,6 +576,19 @@ endline
 line border -subtype invisible
 endline
 
+area sand
+  l684-11582-29882
+endarea
+
+line border -id l684-11582-29882 -close on -subtype invisible
+  10916.0 29926.0
+  10916.0 29926.0 11424.0 30250.0 11444.0 29896.0
+  11464.0 29542.0 11708.0 30142.0 11708.0 30142.0
+  smooth off
+  10966.0 30404.0
+  10916.0 29926.0
+endline
+
 line wall -id l6-11026-27178 -reverse on
   11504.0 30166.0
   11497.0 30137.0 11448.0 30074.0 11432.0 30039.0
@@ -1682,6 +1695,12 @@ point 12884.0 41434.0 stalactite
 line border -close off
   11868.0 30892.0
 endline
+
+point 7560.0 42970.0 label -text "Crystal Canals" -scale l
+
+point 13226.0 31540.0 label -text "Tangy Cicada" -scale l
+
+point 11486.0 30344.0 guano
 
 line wall
   11504.0 30166.0
