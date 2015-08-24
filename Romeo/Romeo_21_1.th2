@@ -267,6 +267,20 @@ point 808.0 1864.0 rimstone-pool -orientation 237.1
 line border -subtype invisible
 endline
 
+point 4912.0 3318.0 water-flow -orientation 215.3
+
+area sump
+  l78-4440-3102
+endarea
+
+line border -id l78-4440-3102 -close on -subtype invisible
+  4412.0 3082.0
+  4568.0 2866.0
+  4770.0 2938.0
+  4606.0 3244.0
+  4412.0 3082.0
+endline
+
 area sump
   l46-700-912
 endarea

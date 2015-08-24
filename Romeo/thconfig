@@ -86,6 +86,11 @@ layout local
         T:=identity;
         thfill p withcolor (0.1, 0.2, 0.8);
     enddef;
+    # should probably differentiate these so sumps are shown on the survey
+    def a_sump (expr p) =
+        T:=identity;
+        thfill p withcolor (0.1, 0.2, 0.8);
+    enddef;
     
     
     
