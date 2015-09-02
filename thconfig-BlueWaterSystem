@@ -170,7 +170,7 @@ layout local
 endlayout
 
 export map -proj plan -layout local -o .\output\BlueWater-System.pdf
-export map -fmt kml -proj plan -layout local -o .\output\BlueWater-System.kml
+#export map -fmt kml -proj plan -layout local -o .\output\BlueWater-System.kml
 export model -fmt kml -o .\output\BlueWater-System-model.kml
 
 #Survex file showing centre line only
