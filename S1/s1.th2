@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -129.0 -129.0 4371.401574805001 6020.543307080699
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust -132.0 -132.0 4371.401574805001 6020.543307080699
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {2297.10393701 1 1.0} {4906.35070866 1.4} PocketTopo/s1_p.xvi 0 {}
 
 
@@ -411,6 +411,7 @@ line wall
   1207.0 5161.0 1227.0 5155.0 1238.0 5135.0
   1249.0 5115.0 1278.0 5070.0 1286.0 5060.0
   1294.0 5050.0 1308.0 5038.0 1321.0 5021.0
+  smooth off
 endline
 
 line wall
@@ -546,6 +547,7 @@ line wall
   1321.0 5021.0
   1335.11 5002.54 1363.0 4960.0 1362.0 4944.0
   1361.0 4928.0 1360.0 4917.0 1356.0 4901.0
+  smooth off
 endline
 
 point 1347.5639370100002 4791.41070866 station -name 1.5
@@ -584,6 +586,7 @@ line border
   1593.75 4880.75 1629.75 4890.0 1638.5 4890.0
   1647.25 4890.0 1699.0 4898.5 1706.75 4900.25
   1714.5 4902.0 1753.5 4907.5 1757.75 4908.25
+  smooth off
 endline
 
 line border
@@ -822,6 +825,96 @@ line wall
   1673.0 5141.0 1664.25 5156.75 1664.25 5156.75
   smooth off
 endline
+
+line floor-step
+  1933.0 4902.0
+  1933.0 4884.0 1942.0 4856.0 1934.0 4843.0
+  1926.0 4830.0 1931.0 4806.0 1931.0 4806.0
+  smooth off
+endline
+
+line floor-step
+  2015.0 4938.0
+  2027.0 4947.0 2041.0 4968.0 2060.0 4957.0
+  2079.0 4946.0 2091.0 4929.0 2091.0 4929.0
+  smooth off
+endline
+
+point 1693.0 5400.0 label -text "Climb +2m" -scale s -align right
+
+point 1220.0 5109.0 label -text "Climb +2m" -scale s -align left
+
+point 1386.0 5390.0 label -text "Eye Hole" -scale s
+
+line label -text "High Level" -scale m
+  442.0 5281.0
+  442.0 5281.0 578.48 5709.28 883.0 5749.0
+  998.0 5764.0 1102.0 5787.0 1102.0 5787.0
+  smooth off
+endline
+
+point 1309.0 4717.0 label -text "Entrance"
+
+point 323.0 4883.0 label -text "day<br>light"
+
+point 2996.0 5351.0 label -text "contines low"
+
+point 2614.0 2332.0 gradient -orientation 172.3
+
+point 2533.0 2268.0 gradient -orientation 172.3
+
+point 2665.0 2203.0 gradient -orientation 172.3
+
+point 2562.0 2163.0 gradient -orientation 172.3
+
+point 2630.0 2039.0 gradient -orientation 172.3
+
+point 2552.0 1697.0 gradient -orientation 225.1
+
+point 2589.0 1594.0 gradient -orientation 232.2
+
+point 2579.0 1485.0 gradient -orientation 276.0
+
+point 2534.0 1374.0 gradient -orientation 324.5
+
+point 2420.0 1387.0 gradient -orientation 324.5
+
+point 2305.0 1416.0 gradient -orientation 324.5
+
+point 2356.0 1524.0 gradient -orientation 252.9
+
+point 2368.0 1627.0 gradient -orientation 252.9
+
+point 2362.0 1723.0 gradient -orientation 252.9
+
+point 2273.0 1836.0 gradient -orientation 236.1
+
+point 2194.0 1940.0 gradient -orientation 212.5
+
+point 2132.0 2014.0 gradient -orientation 212.5
+
+point 2053.0 2088.0 gradient -orientation 212.5
+
+point 1960.0 2144.0 gradient -orientation 212.5
+
+point 2693.0 2547.0 label -text "aven" -align right -scale m
+
+point 1261.0 1725.0 label -text "continues too low" -align right -scale m
+
+point 1709.0 635.0 label -text "continues too low" -align right -scale m
+
+point 1898.0 2448.0 label -text "Hole -1m" -align right -scale m
+
+point 1990.0 4588.0 label -text "Climb -3m" -align right -scale m
+
+line pit
+  1729.0 4679.0
+  1729.0 4679.0 1740.0 4673.0 1767.0 4660.0
+  1794.0 4647.0 1829.0 4652.0 1844.0 4645.0
+  1859.0 4638.0 1919.0 4624.0 1933.0 4624.0
+endline
+
+point 2151.0 3562.0 label -text "Pitch -14" -align right -scale m
 
 endscrap
 

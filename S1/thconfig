@@ -6,7 +6,7 @@ source s1.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o .\output\s1.pdf
+export map -proj plan -layout local -o .\output\area_51.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o .\output\s1Ee.pdf
@@ -100,7 +100,7 @@ layout local
     #change the size of the default fonts
     #fonts_setup(<tinysize>,<smallsize>,<normalsize>,<largesize>,<hugesize>);
     #origional fonts_setup(6,8,10,14,20);
-    fonts_setup(6,8,30,54,80);
+    fonts_setup(6,8,20,54,80);
   
   endcode
   
