@@ -4,6 +4,8 @@ survey C4HelicopterHole
   input C4HelicopterHole.th2
   input C4HelicopterHoleEe.th2
 
+
+
   map C4HelicopterHoleM
     Above_Pitch_3_Sec_1
     Above_Pitch_3_Sec_2
@@ -12,10 +14,11 @@ survey C4HelicopterHole
     Above_Pitch_3_Sec_5
     Above_Pitch_3_Sec_6
     Above_Pitch_3_Sec_7
-  endmap
+   endmap
 
   map C4HelicopterHoleME
     C4HelicopterHoleSE1
+    C4HelicopterHoleSE2
   endmap
 
   centreline
@@ -36,7 +39,7 @@ copyright 2015 "GNU GPL"
   team "Henry Dawson" notes
   team "Henry Dawson" instruments
 
-  instrument  instruments "UBSS DistoX1"
+  instrument  instruments "BEC DistoX"
   #
   cs EPSG:32651
   # not sure which is the correct station to pin

@@ -6,10 +6,13 @@ input C1Ee.th2
 
 map C1M
   C1SP1
+  break
+  C1SP2
 endmap
 
 map C1ME
   C1SE1
+  C1SE2
 endmap
 centreline
 
@@ -18,10 +21,10 @@ copyright 2015 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-  date 2005.07.01
+  date 2015.04.01
 
-  team "Andrew Atkinson" notes
-  team "Alison Moody" instruments
+  team "Henry Dawson" notes
+  team "Laura Benn" instruments
 
   instrument  instruments "UBSS DistoX1"
 
