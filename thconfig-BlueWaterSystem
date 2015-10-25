@@ -169,9 +169,9 @@ layout local
 
 endlayout
 
-export map -proj plan -layout local -o .\output\BlueWater-System.pdf
-#export map -fmt kml -proj plan -layout local -o .\output\BlueWater-System.kml
-export model -fmt kml -o .\output\BlueWater-System-model.kml
+export map -proj plan -layout local -o .\output\BlueWater-Helicopter.pdf
+#export map -fmt kml -proj plan -layout local -o .\output\BlueWater-Helicopter.kml
+export model -fmt kml -o .\output\BlueWater-Helicopter.kml
 
 #Survex file showing centre line only
-export model -fmt survex -o .\output\bluewater-survex.3d
+export model -fmt survex -o .\output\bluewater-Helicopter-survex.3d

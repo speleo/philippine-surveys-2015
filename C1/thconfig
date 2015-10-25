@@ -6,12 +6,19 @@ source C1.th
 #Surveys to output
 #-----------------
 
+<<<<<<< HEAD
 #export map -proj plan -layout local -o 1.pdf
 #Produces plan of cave, on a single sheet
 
 export map -proj extended -layout local -o C1Ee.pdf
+=======
+export map -proj plan -layout local -o ./output/C1.pdf
+#Produces plan of cave, on a single sheet
 
-export model -fmt survex -o C1th.3d
+#export map -proj extended -layout local -o ./output/C1Ee.pdf
+>>>>>>> origin/master
+
+#export model -fmt survex -o ./output/C1th.3d
 #Survex file showing centre line only
 
 #export model -o C1.lox
