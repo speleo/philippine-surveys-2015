@@ -372,6 +372,7 @@ data normal from to tape compass clino ignoreall
 #13.0  13.1  3.179  265.33  -9.46  
 #13.0  13.1  3.18  265.33  -9.53  
 13.0  13.1  3.179  265.36  -9.5  Calculated leg from 3 above
+#pointless extra line for a test
 endcentreline
 endsurvey
 
