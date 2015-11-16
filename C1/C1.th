@@ -4,17 +4,30 @@ survey C1
 input C1.th2
 input C1Ee.th2
 
-map C1M
+map C1_Main
   C1SP1
-  break
+endmap
+
+map C1_Lower
   C1SP2
+endmap
+
+map map
+  C1_Main
+  break
+  C1_Lower [0 25 m] below 
+  preview below C1_Main
 endmap
 
 map C1ME
   C1SE1
   C1SE2
 endmap
+
 centreline
+
+  #equate 3.0 2.6 
+  #join 2.6 3.0
 
 copyright 2015 "GNU GPL"
 
