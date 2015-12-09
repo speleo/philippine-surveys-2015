@@ -12,7 +12,7 @@ map C1_Lower
   C1SP2
 endmap
 
-map map
+map map_print
   C1_Main
   break
   C1_Lower [0 25 m] below 
@@ -21,7 +21,8 @@ endmap
 
 map C1ME
   C1SE1
-  C1SE2
+  #C1SE2
+  C1SE3
 endmap
 
 centreline
@@ -161,7 +162,9 @@ data normal from to tape compass clino ignoreall
 1.12  -  4.469  79.01  4.77  
 1.12  -  4.086  63.15  6.78  
 1.12  -  5.045  51.29  2.22  
-1.12  -  19.649  56.55  -2.77  
+1.12  7.0 19.649  56.55  -2.77  
+#1.12  -  19.649  56.55  -2.77  
+
 1.12  -  5.174  0.85  4.37  
 1.12  -  5.766  312.95  7.5  
 1.12  -  3.729  284.61  8.01  

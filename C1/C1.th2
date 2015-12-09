@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 11969.0 8270.8118579035
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -136.0 -136.0 11974.0 8270.8118579035
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {10205.5639296 1 1.0} {2854.96594877 1.4} PocketTopo/C1_p.xvi 0 {}
 
 
@@ -72,6 +72,8 @@ point 6046.8339296 3534.68594877 station -name 4.3
 point 5820.9639296000005 4071.36594877 station -name 4.2
 
 point 5797.0539296 4362.58594877 station -name 4.1
+
+point 7476.0 5356.0 station -name 7.0
 
 point 6187.5239296 4505.60594877 station -name 4.0
 
@@ -1160,7 +1162,7 @@ point 4536.0 5660.0 label -text [+2m]
 
 point 10824.0 1124.0 label -text [Stream bed]
 
-point 11304.0 2532.0 label -text -10m
+point 11596.0 2303.0 label -text "Entrance<br>Pitch<br>-8m"
 
 point 6372.0 2644.0 label -text [Continued but very tight]
 

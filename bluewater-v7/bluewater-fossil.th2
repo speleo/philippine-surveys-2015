@@ -275,7 +275,7 @@ point 21545.0 13940.0 gradient -orientation 326.3
 
 point 21501.0 13850.0 gradient
 
-point 21980.0 11077.0 label -text "Climb 4m" -align right -scale s
+point 22056.0 11173.0 label -text "climb<br>4m" -align right -scale xs
 
 line rock-border
   22250.0 13883.0

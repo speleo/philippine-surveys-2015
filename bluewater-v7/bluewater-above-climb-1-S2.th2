@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -144.0 73512.0 32090.480314911
+##XTHERION## xth_me_area_adjust -144.0 -144.0 73404.0229857141 32090.480314911
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {53178.2494572 1 1.0} {22590.4848031 15.26} PocketTopo/bluewater-day-5-fixed_p.xvi 0 {}
 
@@ -34,31 +34,11 @@ line slope
   l-size 126.5
 endline
 
-point 69886.0 13134.0 label -text "Passage approx height 50m, width 10m<br>Altitude - roof 306m - surface 348m" -align left
+point 64140.0 22920.0 label -text "Waterfall" -scale s -align left
 
-point 70704.0 14616.0 label -text "Limit of Exploration 2014<br>Waterfall Estimated 18m+" -align left -scale m
+point 66272.0 23720.0 label -text "2nd Pitch<br>8.5m" -scale l -align right
 
-point 72560.0 14196.0 label -text "?"
-
-line wall -subtype presumed
-  72836.0 15196.0
-  73264.0 14324.0
-  73364.0 14004.0
-endline
-
-line wall -subtype presumed
-  71988.0 14764.0
-  72036.0 14348.0
-  72180.0 13652.0
-  72332.0 13068.0
-  72808.0 11416.0
-endline
-
-point 66736.0 23136.0 label -text "Waterfall"
-
-point 64096.0 23540.0 label -text "Pitch +8.5m" -align left
-
-point 51788.0 21424.0 label -text "Cascade +3m" -align left
+point 53348.0 21352.0 label -text "Cascade 3m" -align left -scale s
 
 point 39451.4294572 22716.9148031 station -name 15.2
 
@@ -837,7 +817,7 @@ line pit -id l215-64816-23208
   smooth off
 endline
 
-point 57096.0 28096.0 label -text "Cascade 4.5m" -align left
+point 57096.0 28096.0 label -text "Cascade 4.5m" -align left -scale s
 
 line border -id l151-57388-26560 -subtype invisible
   57246.0 26428.0
@@ -1109,25 +1089,25 @@ point 71835.0094572 15972.9048031 station -name 15.57
 point 70862.6494572 16651.8748031 station -name 15.56
 
 area water
-  l186-70260-16552
+  BelowP3_Right_Wall
   l200-66000-21336
   l190-66192-21760
-  l185-70276-17484
+  BelowP3_Left_Wall
   l188-68384-19828
-  l185-70276-17484
+  BelowP3_Left_Wall
   l192-69676-18008
 endarea
 
 area water
-  l186-70260-16552
+  BelowP3_Right_Wall
   l193-69872-17396
-  l185-70276-17484
+  BelowP3_Left_Wall
   l194-70536-17040
-  l185-70276-17484
+  BelowP3_Left_Wall
   l197-72664-14900
 endarea
 
-line floor-step -id l197-72664-14900
+line border -id l197-72664-14900
   72892.0 15104.0
   72892.0 15104.0 73072.0 14884.0 72792.0 14892.0
   72512.0 14900.0 72564.0 14972.0 72400.0 14864.0
@@ -1218,7 +1198,7 @@ point 67406.8994572 20365.4348031 station -name 15.51
 
 point 66325.6294572 21383.2948031 station -name 15.50
 
-line wall -id l185-70276-17484
+line wall -id BelowP3_Left_Wall
   72892.0 15104.0
   72892.0 15104.0 72644.0 15396.0 72544.0 15456.0
   72444.0 15516.0 71944.0 15892.0 71924.0 15916.0
@@ -1239,7 +1219,7 @@ line wall -id l185-70276-17484
   smooth off
 endline
 
-line wall -id l186-70260-16552
+line wall -id BelowP3_Right_Wall
   65936.0 21178.0
   65974.0 21148.0 66662.0 20584.0 66692.0 20562.0
   66722.0 20540.0 67020.0 20262.0 67112.0 20214.0

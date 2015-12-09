@@ -1,19 +1,23 @@
 encoding  utf-8
 survey C4HelicopterHole
 
-  input C4HelicopterHole.th2
+  input C4HelicopterHole_Beauty_Above_Pitch_3_Sec_1.th2
+  input C4HelicopterHole_Beauty_Above_Pitch_3_Sec_2.th2
+  input C4HelicopterHole_Beast_Sec_1.th2
+  input C4HelicopterHole_Beast_Sec_2.th2
+  input C4HelicopterHole_Beast_Sec_3.th2
+  input C4HelicopterHole_Beast_Sec_4.th2
+  input C4HelicopterHole_Beast_Sec_5.th2
   input C4HelicopterHoleEe.th2
 
-
-
   map C4HelicopterHoleM
-    Above_Pitch_3_Sec_1
-    Above_Pitch_3_Sec_2
-    Above_Pitch_3_Sec_3
-    Above_Pitch_3_Sec_4
-    Above_Pitch_3_Sec_5
-    Above_Pitch_3_Sec_6
-    Above_Pitch_3_Sec_7
+    Beauty_Above_Pitch_3_Sec_1
+    Beauty_Above_Pitch_3_Sec_2
+    Beast_Sec_1
+    Beast_Sec_2
+    Beast_Sec_3
+    Beast_Sec_4
+    Beast_Sec_5
    endmap
 
   map C4HelicopterHoleME
@@ -22,6 +26,7 @@ survey C4HelicopterHole
   endmap
 
   centreline
+    date 2015.03.04
     data normal from to tape compass clino ignoreall
     extend right
     1.0  -  0.0  0.0  0.0  
@@ -442,10 +447,12 @@ copyright 2015 "GNU GPL"
 ### TRIP COMMENT FROM POCKETTOPO ###
 #
 
-  date 2005.07.01
+  date 2015.03.04
 
-  team "Andrew Atkinson" notes
-  team "Alison Moody" instruments
+  team "Henry Dawson" notes
+  team "Henry Dawson" instruments
+  team "Ranger Marquez"
+  team "Rob Adams"
 
   instrument  instruments "UBSS DistoX1"
 

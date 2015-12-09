@@ -6,14 +6,18 @@ source lumio.th
 #Surveys to output
 #-----------------
 
-export map -proj plan -layout local -o ./output/lumio.pdf
+#export map -proj plan -layout local -o ./output/lumio.pdf
 #Produces plan of cave, on a single sheet
+
+
+export map -proj elevation 10 -layout local -o ./output/lumio_extended.pdf
 
 export model -fmt survex -o ./output/lumio.3d
 #Survex file showing centre line only
 
 
 layout local
+  debug first
   scale 1 150
   base-scale 1 150
   scale-bar 20 m

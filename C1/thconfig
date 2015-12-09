@@ -6,14 +6,14 @@ source C1.th
 #Surveys to output
 #-----------------
 
-#select map@C1
-#export map -proj plan -layout local -o ./output/C1.pdf
+select map_print@C1
+export map -proj plan -layout local -o ./output/C1.pdf
 #Produces plan of cave, on a single sheet
 
 select C1ME@C1
-export map -proj extended -layout local -o ./output/C1Ee.pdf
+#export map -proj exended -layout local -o ./output/C1Ee.pdf
 
-#export model -fmt survex -o ./output/C1th.3d
+export model -fmt survex -o ./output/C1th.3d
 #Survex file showing centre line only
 
 #export model -o C1.lox
@@ -26,7 +26,7 @@ layout test
 endlayout
 
 layout local
-  debug first
+  #debug first
   scale-bar 50 m
   #Foreground color - turn on altitdude to see various heights
   colour map-fg [80 80 80]

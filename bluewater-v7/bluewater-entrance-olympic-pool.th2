@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.0 -144.0 73404.0229857141 32090.480314911
+##XTHERION## xth_me_area_adjust -132.0 -132.0 73404.0229857141 32090.480314911
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {53178.2494572 1 1.0} {22590.4848031 15.26} PocketTopo/bluewater-day-5-fixed_p.xvi 0 {}
 
@@ -32,7 +32,7 @@ line border -id l35-13442-7522 -subtype invisible
 endline
 
 line border -id l34-10630-6694 -subtype invisible
-  10592.0 7010.0
+  10579.0 7007.0
   10711.0 5989.0
 endline
 
@@ -55,7 +55,7 @@ line wall -id l10-11268-7276
   11023.0 7182.0 10931.0 7156.0 10917.0 7157.0
   10903.0 7158.0 10872.0 7161.0 10841.0 7115.0
   10830.28 7099.09 10741.0 7045.0 10710.0 7037.0
-  10679.0 7029.0 10627.0 7023.0 10592.0 7010.0
+  10679.0 7029.0 10614.0 7020.0 10579.0 7007.0
   smooth off
 endline
 

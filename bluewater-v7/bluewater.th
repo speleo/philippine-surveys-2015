@@ -10,6 +10,12 @@ input bluewater-above-climb-1-S1.th2
 input bluewater-above-climb-1-S2.th2
 input bluewaterEe.th2
 
+#join l556-21796-11116@bluewater-above-olympic-pool  l81-17084-9672@bluewater-olympic-pool 
+#join l58-19828-10298@bluewater-above-olympic-pool  l84-19088-8592@bluewater-olympic-pool 
+
+
+#join l556-21796-11116@bluewater  l81-17084-9672@bluewater 
+#join l58-19828-10298@bluewater  l84-19088-8592@bluewater 
 
 # Map_m500 - This is the main detailed 1:500 scale map, all in one page.  
 # ========
@@ -63,11 +69,9 @@ copyright 2014 "GNU GPL"
   team "Henry Bennett" notes
   team "Henry Bennett" instruments
   team "Hannah Bennett"
-  team "Rob Bruce"
   team "Paul Fairman"
-  team "Ben Barnett"
   team "Oliver Legg"
-
+  team "Bristol_Exploration_Club"
   instrument  instruments "BEC DistoX2"
 
   explo-date 2014.03.08
@@ -75,8 +79,7 @@ copyright 2014 "GNU GPL"
   cs EPSG:32651
   
   #fix the Entrance to a grid refence
-  #fix 11.23 393963.71 1992793.07 204
-  fix 11.23 393963.71 1992793.07 404
+  fix 11.23 393963.71 1992793.07 204
 
 data normal from to tape compass clino ignoreall
 1.0  -  3.68  127.95  -4.58  
