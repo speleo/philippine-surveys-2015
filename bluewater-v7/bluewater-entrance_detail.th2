@@ -17,6 +17,8 @@ point 7660.9394572 5450.6448031 station -name 0.3
 
 point 8109.479457199999 5628.3748031 station -name 0.4
 
+point 6613.0 2675.0 entrance -scale xl
+
 point 8606.6494572 5686.2948031 station -name 0.5
 
 point 9060.059457199999 5859.8948031 station -name 0.6

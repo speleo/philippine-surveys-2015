@@ -18,6 +18,7 @@ survey C4HelicopterHole
     Beast_Sec_3
     Beast_Sec_4
     Beast_Sec_5
+    #Helicopter_Image_labels
    endmap
 
   map C4HelicopterHoleME

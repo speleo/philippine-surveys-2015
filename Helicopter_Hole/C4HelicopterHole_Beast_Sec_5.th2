@@ -414,7 +414,7 @@ point 184653.3453543 35785.241259799994 station -name 1.128
 
 point 187520.0 35144.0 water-flow -orientation 17.2
 
-point 184884.0 30668.0 label -text [2015<br>Limit of Exploration<br>Continues large and open] -align bottom-right
+point 184792.0 30140.0 label -text [2015<br>Limit of Exploration<br>Continues large and open] -align bottom-right
 
 point 187448.0 36264.0 label -text [Water Sinks] -align right
 
@@ -433,8 +433,8 @@ endline
 area sand
   l48-171816-26004
   l1085-169736-25152
-  l1102-176804-31404
   l49-169792-25732
+  l1102-176804-31404
   l481-177056-30088
   l1099-176164-28584
 endarea
@@ -452,6 +452,16 @@ line border -id l1085-169736-25152 -subtype invisible
   170220.0 24500.0 170248.0 24408.0 170276.0 24352.0
   170304.0 24296.0 170300.0 24248.0 170344.0 24220.0
   smooth off
+endline
+
+line wall -reverse on -subtype presumed
+  185912.0 31300.0
+  185636.0 30552.0
+endline
+
+line wall -subtype presumed
+  184844.0 31444.0
+  184460.0 30708.0
 endline
 
 line wall -id l48-171816-26004

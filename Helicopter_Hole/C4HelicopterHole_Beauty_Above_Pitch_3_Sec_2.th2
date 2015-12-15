@@ -1349,13 +1349,20 @@ line flowstone
   smooth off
 endline
 
-point 78464.0 59756.0 label -text [Doline<br>and<br>Entrance] -scale m
+point 77332.0 59768.0 label -text [Helicopter<br>Hole<br>Doline] -scale l
 
 point 82372.0 65512.0 air-draught -orientation 15.9
 
 point 80560.0 65364.0 label -text [Strong draft] -scale s
 
-point 87856.0 61524.0 label -text [+25m] -scale s
+line arrow
+  87664.0 62848.0
+  85976.0 60772.0
+endline
+
+point 87844.0 63108.0 label -text [Pitch 100m<br>to surface] -align right -scale s
+
+point 87508.0 60500.0 label -text [+25m] -scale xs
 
 point 79348.0 75052.0 label -text [Huge eroded flowstone <br> boulders and towers] -scale xs
 
@@ -1368,6 +1375,8 @@ point 82272.0 73836.0 label -text [+3m] -scale xs
 point 82620.0 73104.0 label -text [?] -scale s
 
 point 84224.0 70104.0 label -text [+8m] -scale xs
+
+point 74432.0 52376.0 label -text [Helicopter Hole seen from Beauty, photo copyright Hellie Adams] -scale s
 
 point 84564.0 71420.0 label -text [+8m] -scale xs
 

@@ -389,7 +389,7 @@ line rock-border -id l209-18944-7028
   16256.0 5884.0
 endline
 
-line wall -id l81-17084-9672
+line wall -id op_left_wall
   18216.0 9448.0
   18182.0 9377.0 18121.0 9430.0 18075.0 9423.0
   18029.0 9416.0 17974.0 9436.0 17894.0 9450.0
@@ -409,7 +409,7 @@ line wall -id l81-17084-9672
   smooth off
 endline
 
-line wall -id l84-19088-8592
+line wall -id op_right_wall
   15576.0 6469.0
   15611.0 6463.0 15718.0 6494.0 15771.0 6455.0
   15824.0 6416.0 15898.0 6313.0 15932.0 6271.0
@@ -459,24 +459,24 @@ area water
 endarea
 
 area water
-  l84-19088-8592
+  op_right_wall
   l72-15608-6864
   l175-15450-6962
   l151-15984-7412
   l148-16372-7912
   l157-16348-8160
-  l81-17084-9672
+  op_left_wall
   l201-16911-9108
-  l81-17084-9672
+  op_left_wall
   l202-17151-9518
-  l81-17084-9672
+  op_left_wall
   l208-19020-8112
   l209-18944-7028
 endarea
 
 area blocks
   l45-19218-8144
-  l84-19088-8592
+  op_right_wall
 endarea
 
 point 15434.2094572 7326.0748031 station -name 11.2
@@ -490,7 +490,7 @@ endline
 
 area blocks
   l209-18944-7028
-  l84-19088-8592
+  op_right_wall
 endarea
 
 area water
